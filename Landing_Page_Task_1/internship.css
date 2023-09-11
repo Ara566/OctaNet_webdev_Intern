@@ -1,0 +1,104 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#fff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(45, 150, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+body {
+    font-size: 16px;
+    background: #f9f9f9;
+    font-family: 'Segoe UI', "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-image: url("https://th.bing.com/th/id/OIP.K_AVi3icDX8r1mo-w_dkiAHaFY?w=206&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7");
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline rgb(76, 176, 252) 2px;
+}
+
+form {
+    width: 300px;
+    background: #fff;
+    padding: 15px 40px 40px;
+    border-radius: 5px;
+    margin: 50px auto 0;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label i {
+    color: #999;
+    font-size: 75%;
+}
+
+input,
+select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+}
+
+.row {
+    padding-bottom: 10px;
+
+}
+
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+
+.form-inline label,
+.form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #006dcc;
+    border-color: #016BC1;
+    box-shadow: 0 3px 0 #0165b6;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0165b6;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+  }
